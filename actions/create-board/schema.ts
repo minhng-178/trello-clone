@@ -7,6 +7,6 @@ export const CreateBoard = z.object({
       invalid_type_error: 'Title is required',
     })
     .min(3, {
-      message: 'Title is to short.',
+      message: 'Title is too short.',
     }),
 });
